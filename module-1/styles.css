@@ -30,6 +30,39 @@ body {
   padding: 96px 0;
 }
 
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #ffffff;
+}
+
+.btn-one {
+  border-color: white;
+  color: white;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-one:hover {
+  color: #0097e6;
+}
+
 /* Navigation */
 
 .navigation {
