@@ -63,6 +63,36 @@ body {
   color: #0097e6;
 }
 
+.btn-two {
+  border-color: #33d9b2;
+  color: #33d9b2;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-two:hover {
+  color: #33d9b2;
+}
+
+.btn-three {
+  border-color: #ff5252;
+  color: #ff5252;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-three:hover {
+  color: #ff5252;
+}
+
+.btn-four {
+  border-color: #0097e6;
+  color: #0097e6;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-four:hover {
+  color: #0097e6;
+}
+
 /* Navigation */
 
 .navigation {
@@ -147,6 +177,36 @@ h2 {
   font-size: 16px;
 }
 
+h3 {
+  font-size: 24px;
+  margin: 24px 0;
+}
+
 .page-title span {
   font-family: "Signika", sans-serif;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services {
+  flex: 0 0 33.33%;
+  position: relative;
+}
+
+.transparent-digit {
+  position: absolute;
+  font-size: 144px;
+  line-height: 1;
+  color: #33d9b2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.2;
+}
+
+.services p:first-of-type {
+  font-weight: bold;
 }
