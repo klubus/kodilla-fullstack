@@ -93,6 +93,13 @@ body {
   color: #0097e6;
 }
 
+.btn-five {
+  border: none;
+  margin: 36px 0;
+  padding: 0;
+  text-align: left;
+}
+
 /* Navigation */
 
 .navigation {
@@ -186,7 +193,10 @@ h3 {
   font-family: "Signika", sans-serif;
 }
 
-.services-wrapper {
+/* our services */
+
+.services-wrapper,
+.works-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -209,4 +219,63 @@ h3 {
 
 .services p:first-of-type {
   font-weight: bold;
+}
+
+/* our work */
+
+.works {
+  flex: 0 0 50%;
+  min-height: 300px;
+  margin-bottom: 96px;
+}
+
+.work-image {
+  position: absolute;
+  height: 100%;
+  max-width: 250px;
+  z-index: 2;
+  max-height: 250px;
+}
+
+.work-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.work-image::after {
+  content: "";
+  background-color: #33d9b2;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  transition: all 2s;
+}
+
+.work-image:hover::after {
+  left: 0px;
+  top: 0px;
+}
+
+.work-description {
+  padding: 0 0 0 55%;
+  text-align: left;
+  position: relative;
+}
+
+.our-work p:last-of-type {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.our-work p {
+  margin-bottom: 0;
+}
+
+.work-title {
+  margin-top: 0;
 }
