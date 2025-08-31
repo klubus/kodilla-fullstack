@@ -26,7 +26,7 @@
   font-size: 50px;
 }
 
-i {
+.three-tiles i {
   width: 50px;
 }
 
@@ -34,4 +34,26 @@ i {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+.info {
+  background-color: #eff2f5;
+}
+
+.info .card {
+  background-color: #eff2f5;
+  border: none;
+  font-family: "Libertinus Sans", sans-serif;
+}
+
+.info i {
+  padding-right: 5%;
+}
+
+.info a {
+  font-family: "Nunito", sans-serif;
+}
+
+#fname {
+  font-size: small;
 }
